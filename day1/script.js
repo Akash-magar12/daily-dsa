@@ -1,4 +1,6 @@
-let a = 10;
-let c =20
-let b = 20;
-console.log(a+b+c);
+function checkArray(inp){
+    return Array.isArray(inp)
+}
+
+console.log(checkArray(2));
+console.log(checkArray([1,2,3,4]));
